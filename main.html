@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(226, 255, 201);
+        }
+        #banner{
+             text-align: center;
+            font: bold;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: rgb(168, 226, 93);
+            background-color: rgb(250, 255, 176);
+            font-size: 20px;
+            padding: 20px;
+            border-style: dashed;
+            border-color: rgb(168, 226, 93);
+            }
+        nav ul{
+            display: flex;
+            background-color: rgb(168, 226, 93);
+            padding: 10px;
+            border-style: dotted;
+            border-color: rgb(250, 255, 176);
+        }
+        ul li{
+            list-style-type: none;
+            
+        }
+        ul li a{
+            color: rgb(250, 255, 176);
+            text-decoration: none;
+            padding: 50px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font: bold;
+            font-size: 10;
+        }
+        ul li a:hover{
+            color: rgb(238, 255, 0);
+            font-weight: bold;
+        }
+        aside article{
+            background-color: rgb(255, 140, 140);
+            padding: 5px;
+            border-style:dashed;
+            border-color: white;
+        }
+        article h2{
+            color: rgb(104, 138, 59);
+        }
+        article p{
+            color: rgb(133, 177, 77);
+        }
+        nav{
+             background-color: rgb(168, 226, 93);
+            position:sticky;
+            top: 0;
+        }
+        main{
+            overflow: auto;
+        }
+        .images{
+           border-radius: 15px;
+        }
+        aside img{
+            width: 60%;
+        }
+        #content{
+            float: left;
+            width: 30%;
+        }
+        aside h3{
+            color: rgb(255, 255, 255);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font: bold;
+        }
+        aside figcaption{
+            color: rgb(255, 255, 255);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font: bold;
+        }
+        header{
+            display: inline;
+        }
+        aside{
+            float: right;
+        }
+        aside article header{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       <div id="banner">
+        <h1>.~Vincenisus Brian Alvino~.</h1>
+        <p>[XII-1]</p>
+       </div>
+       <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#info">Info</a></li>
+            <li><a href="#hobby">Hobby</a></li>
+        </ul>
+       </nav>
+    </header>
+    <main>
+        <div id="content">
+            <article id="home" class="card">
+                <h2>Home</h2>
+                <img src="assets/Kaditzer_Linde,_1840.jpg" alt="" class="images">
+                <p>Welcome to my website guys! Hopefully you all like it. I will pu my blogs and opinions here, also my info so you know what im like! I will put some things that I like, personal info, hobbies, and many other things!</p>
+                
+            </article>
+            <article id="info" class="card">
+                <h2>Info</h2>
+                <img src="assets/Star_fruit_photo.jpg" alt="" class="images">
+                <p>My name is Vincensius Brian Alvino, and Im from Sekolah Bunda Mulia. I like drawing and stuff especially games I love games. Im 17 years old, and currently single, it'll probably stay that way. Im catholic, but im all inclusive really. My favourite color is Blue, and for why this webpage isn't... I just wanted to try something new y'know?</p>
+            </article>
+            <article id="hobby" class="card">
+                <h2>Hobby</h2>
+                <img src="assets/Dungeons_&_Dragons_Miniatures_2.jpg" alt="" class="images">
+                <p>My hobby is drawing, singing from time to time and playing games with my friends. I play all type of games, TTRPGs, video games and also sports like badminton! In my daily life I normally wake up, take a bath, eat, then I do whatever I want to, if i have tasks I do them, if I dont then I just normally watch TV or draw.</p>
+            </article>
+        </div>
+        <aside>
+            <article>
+                <header>
+                    <h3>Cover of mangas I like!</h3>
+                    <figure>
+                        <img src="assets/Witch_Hat_Atelier_vol1.jpg">
+                        <figcaption>"Witch Hat Atelier"</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/Dungeon_Meshi_cover.jpeg">
+                        <figcaption>"Delicious in Dungeon"</figcaption>
+                    </figure>
+                </header>
+            </article>
+        </aside>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
